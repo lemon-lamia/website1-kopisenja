@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kopi Senja | Kopi Lokal & Ruang Kerja Nyaman</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="navbar">
+        <div class="container nav-wrapper">
+            <a href="#" class="logo">Kopi <span>Senja</span>.</a>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#keunggulan">Keunggulan</a>
+                <a href="#menu">Menu</a>
+                <a href="#lokasi">Lokasi</a>
+            </nav>
+
+            <button class="tombol-hamburger" id="tombol-hamburger" aria-label="Buka Menu">☰</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-wrapper">
+            <div class="hero-teks">
+                <span class="label-kecil">100% Biji Kopi Pilihan Nusantara</span>
+                <h1>Mulai Fokusmu dengan Secangkir Kopi Hangat.</h1>
+                <p>Tempat singgah nyaman dengan Wi-Fi cepat, colokan di setiap meja, dan racikan espresso segar setiap hari.</p>
+                <div class="hero-tombol">
+                    <a href="#menu" class="tombol-utama">Lihat Daftar Menu</a>
+                    <a href="#lokasi" class="tombol-garis">Kunjungi Kedai</a>
+                </div>
+            </div>
+            <div class="hero-gambar">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80" alt="Secangkir Kopi Latte">
+            </div>
+        </div>
+    </section>
+
+    <section id="keunggulan" class="bagian">
+        <div class="container">
+            <h2 class="judul-bagian">Kenapa Ngopi di Sini?</h2>
+            <div class="grid-3">
+                <div class="kartu-info">
+                    <h3>Biji Segar</h3>
+                    <p>Disangrai setiap minggu dari petani lokal Jawa Barat dan Aceh Gayo.</p>
+                </div>
+                <div class="kartu-info">
+                    <h3>Wi-Fi Ngebut</h3>
+                    <p>Koneksi stabil hingga 100 Mbps, cocok untuk nugas atau kerja remote.</p>
+                </div>
+                <div class="kartu-info">
+                    <h3>Harga Mahasiswa</h3>
+                    <p>Menu kopi dan camilan mulai dari Rp15.000 tanpa biaya tambahan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="bagian latar-abu">
+        <div class="container">
+            <h2 class="judul-bagian">Menu Favorit</h2>
+
+            <div class="filter-menu">
+                <button class="tombol-filter aktif" data-filter="semua">Semua</button>
+                <button class="tombol-filter" data-filter="kopi">Kopi</button>
+                <button class="tombol-filter" data-filter="non-kopi">Non-Kopi</button>
+            </div>
+
+            <div class="grid-3">
+                <article class="kartu-menu" data-kategori="kopi">
+                    <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=500&q=80" alt="Kopi Susu Gula Aren">
+                    <div class="isi-menu">
+                        <div class="baris-judul">
+                            <h3>Es Kopi Susu Senja</h3>
+                            <span class="harga">Rp18.000</span>
+                        </div>
+                        <p>Espresso house blend dengan susu segar dan gula aren organik.</p>
+                    </div>
+                </article>
+
+                <article class="kartu-menu" data-kategori="kopi">
+                    <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=500&q=80" alt="Cappucino Hangat">
+                    <div class="isi-menu">
+                        <div class="baris-judul">
+                            <h3>Hot Cappucino</h3>
+                            <span class="harga">Rp22.000</span>
+                        </div>
+                        <p>Perpaduan seimbang antara espresso pekat dan busa susu lembut.</p>
+                    </div>
+                </article>
+
+                <article class="kartu-menu" data-kategori="non-kopi">
+                    <img src="https://images.unsplash.com/photo-1515823662972-da6a2e4d3002?auto=format&fit=crop&w=500&q=80" alt="Matcha Latte">
+                    <div class="isi-menu">
+                        <div class="baris-judul">
+                            <h3>Iced Matcha Latte</h3>
+                            <span class="harga">Rp24.000</span>
+                        </div>
+                        <p>Bubuk teh hijau Jepang murni tanpa pemanis buatan.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer id="lokasi" class="footer">
+        <div class="container">
+            <h3>Kopi Senja</h3>
+            <p>Jl. Ngawi Selatan No. 67 • Buka Setiap Hari: 08.00 - 22.00 WIB</p>
+            <p class="hak-cipta">&copy; 2026 Kopi Senja. Proyek Latihan Web Development.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
